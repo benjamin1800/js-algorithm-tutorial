@@ -8,9 +8,9 @@ function recursiveBinarySearch(arr, x, low, high){
       if (x == arr[mid]) {
           return mid
      } else if (x > arr[mid]) {
-     return recursiveBinarySearch(arr, x, mid + 1, high)
+     return recursiveBinarySearch(arr, x, high)
  } else {
-     return recursiveBinarySearch(arr, x, low, mid - 1)
+     return recursiveBinarySearch(arr, x, low)
  }
 
 }
