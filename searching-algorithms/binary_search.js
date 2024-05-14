@@ -13,3 +13,6 @@ function recursiveBinarySearch(arr, x, low, high){
      return recursiveBinarySearch(arr, x, low, mid - 1)
  }
 }
+
+const array = [3, 4, 5, 6, 7, 8, 9]
+console.log (recursiveBinarySearch(array, 6))
