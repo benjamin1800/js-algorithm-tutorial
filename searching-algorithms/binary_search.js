@@ -13,6 +13,3 @@ function recursiveBinarySearch(arr, x, low, high) {
     }
   }
 }
-
-const array = [3, 4, 5, 6, 7, 8, 9];
-console.log(recursiveBinarySearch(array, 6, 0, array.length - 1));
